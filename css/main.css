@@ -182,7 +182,7 @@ a:not([href]):not([tabindex]):hover {
   color: #4676fa;
 }
 .menu-bg .logo-menu a {
-  color: #9f132f;  /* AURO : logo  : RED  (antes #4676fa)*/
+  color: #d32213;  /* AURO : logo  : RED  (antes #4676fa)*/
 }
 .menu-button:hover {
   cursor: pointer;
@@ -850,7 +850,7 @@ a:not([href]):not([tabindex]):hover {
    Download
    ========================================================================== */
 #download {
-  background-image: linear-gradient(120deg, #9f132f 0%, #35030d 100%);
+  background-image: linear-gradient(120deg, rgba(212,84,73,0.89) 0%, #c50000 100%);
   width: 100%;
 }
 #download .section-title {
@@ -980,6 +980,32 @@ a:not([href]):not([tabindex]):hover {
 .list-unstyled li {
   color: #d9534f;
 }
+
+.contact_detail {
+  border: 1px solid hsl(0, 3%, 86%);
+  display: block;
+  margin-bottom: 60px;
+  overflow: hidden;
+  padding: 25px 0;
+}
+
+.contact_detail_m {
+  padding: 0 50px;
+  text-align: center;
+  position:relative;
+}
+
+
+.contact_detail_m i {
+  font-size: 50px;
+  font-weight: 300;
+  padding: 0 0 15px;
+}
+
+.contact_detail_m h5 {
+  font-weight: 200;
+}
+
 /* ==========================================================================
     Subscribe Style
     ========================================================================== */

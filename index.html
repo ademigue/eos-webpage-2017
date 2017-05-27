@@ -153,7 +153,8 @@
           <div class="col-md-4 col-sm-6">
             <div class="item-boxes wow fadeInDown" data-wow-delay="0.8s">
               <div class="icon">
-                <i class="glyphicon glyphicon-sunglasses"></i>
+                <!--<i class="glyphicon glyphicon-sunglasses"></i>-->
+                <i class="fa fa-life-ring"></i>
               </div>
               <h4>IT HelpDesk</h4>
               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
@@ -387,12 +388,22 @@
     <section id="download" class="section">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"> Access <span>Our Research</span></h2>
+          <h2 class="section-title wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s"> Access Our Research</h2>
         </div>
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-4">
             <div class="download-area text-center wow fadeInUp" data-wow-delay="0.3s">
-                <a href="#" class="btn btn-border"><i class="fa fa-book"></i>EOS Documentation</a>
+                <a href="#" class="btn btn-border"><i class="fa fa-file-powerpoint-o"></i>EOS Presentations</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="download-area text-center wow fadeInUp" data-wow-delay="0.3s">
+                <a href="#" class="btn btn-border"><i class="fa fa-book"></i>EOS Documentations</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="download-area text-center wow fadeInUp" data-wow-delay="0.3s">
+                <a href="#" class="btn btn-border"><i class="fa fa-file-pdf-o"></i>EOS Publications</a>
             </div>
           </div>
         </div>
@@ -499,71 +510,77 @@
                 <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Contact <span>Us</span></h2>
                 <hr class="lines wow zoomIn" data-wow-delay="0.3s">
               </div>
-              <form id="contactForm">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
-                      <div class="help-block with-errors"></div>
-                    </div>
+              <!-- MAP, EMAIL and PHONE section -->
+              <div class="col-md-12">
+                  <div class="contact_detail wow animated fadeInUp">
+                      <div class="col-md-4 col-sm-4">
+                          <div class="contact_detail_m">
+                              <img src="img/contact/c1.jpg" alt=""><br>
+                              <a href="https://goo.gl/maps/DUt37zN3UNK2" target="_blank">Route de Meyrin, 1217 Meyrin, Geneva</a>
+                              <!--<i class="icon-map"></i>  imgMap-->
+                              <!--<h2>New York City Office Greenpoint Ave, USA</h2>-->
+                          </div>
+                      </div>
+                      <div class="col-md-4 col-sm-4">
+                          <div class="contact_detail_m">
+                              <img src="img/contact/c2.jpg" alt="">
+                              <p>contact@site.com</p>
+                              <!--<i class="icon-envelope"></i> imgEnvelope-->
+                              <!--<h2><a href="contact@site.com">contact@site.com</a></h2>-->
+                          </div>
+                      </div>
+                      <div class="col-md-4 col-sm-4">
+                          <div class="contact_detail_m">
+                              <img src="img/contact/c3.jpg" alt="">
+                              <p>(555)22 22 22</p>
+                              <!--<i class="icon-phone"></i>imgPhone-->
+                              <!--<h2>(555)6666</h2>-->
+                          </div>
+                      </div>
                   </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
-                      <div class="help-block with-errors"></div>
+
+                  <!--CONTACT Section -->
+                  <form id="contactForm">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
+                       <div class="col-md-12">
+                        <div class="form-group">
+                          <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required data-error="Please enter your subject">
+                          <div class="help-block with-errors"></div>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <textarea class="form-control" placeholder="Your Message" rows="11" data-error="Write your message" required></textarea>
+                          <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="submit-button text-center">
+                          <button class="btn btn-common" id="submit" type="submit">Send Message</button>
+                          <div id="msgSubmit" class="h3 text-center hidden"></div>
+                          <div class="clearfix"></div>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                   <div class="col-md-12">
-                    <div class="form-group">
-                      <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required data-error="Please enter your subject">
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <textarea class="form-control" placeholder="Your Message" rows="11" data-error="Write your message" required></textarea>
-                      <div class="help-block with-errors"></div>
-                    </div>
-                    <div class="submit-button text-center">
-                      <button class="btn btn-common" id="submit" type="submit">Send Message</button>
-                      <div id="msgSubmit" class="h3 text-center hidden"></div>
-                      <div class="clearfix"></div>
-                    </div>
-                  </div>
-                </div>
-              </form>
+                  </form>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Contact Section End -->
-    <!--TESTING THIS PART. A ROW WITH THREE ICONS: ADRESS, EMAIL AND NUMBER (THE OTHER YELLOW)-->
-    <!--<div class="col-md-12">
-        <div class="contact_detail wow animated fadeInUp">
-            <div class="col-md-4 col-sm-4">
-                <div class="contact_detail_m">
-                    <i class=" icon-map"></i>
-                    <h5>New York City Office Greenpoint Ave, USA</h5>
-                    <span> <i class="icon-map"></i> </span>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-4">
-                <div class="contact_detail_m">
-                    <i class=" icon-envelope"></i>
-                    <h5><a href="contact@site.com">contact@site.com</a></h5>
-                    <span><i class="icon-envelope"></i> </span>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-4">
-                <div class="contact_detail_m">
-                    <i class=" icon-phone"></i>
-                    <h5>(555)6666</h5>
-                    <span><i class="icon-phone"></i></span>
-                </div>
-            </div>
-        </div>
-    </div>-->
+
 
     <!-- Footer Section Start -->
     <footer>
