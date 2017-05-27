@@ -161,6 +161,9 @@ a:not([href]):not([tabindex]):hover {
 /* ==========================================================================
    Navbar Style
    ========================================================================== */
+.nav-horizontal{
+    display: inline !important;
+}
 .bg-faded {
   background-color: #fff;
 }
@@ -228,6 +231,9 @@ a:not([href]):not([tabindex]):hover {
 }
 .navbar-light .navbar-toggler i {
   color: #333!important;
+}
+.menu-inline{
+    display: inli
 }
 /* ==========================================================================
    Hero Area Style
