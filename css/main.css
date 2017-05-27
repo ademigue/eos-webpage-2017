@@ -161,14 +161,20 @@ a:not([href]):not([tabindex]):hover {
 /* ==========================================================================
    Navbar Style
    ========================================================================== */
-.nav-horizontal{
+.nav-margin{
+    margin-bottom: 0px !important;
+}
+.nav-menu-item{
+    font-size: 14px !important;
+}
+.nav-item-d{
     display: inline !important;
 }
 .bg-faded {
   background-color: #fff;
 }
 .logo-menu a {
-  font-size: 20px;
+  font-size: 29px;
   color: #fff;
 }
 .menu-bg {
