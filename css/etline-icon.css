@@ -10,7 +10,7 @@
 }
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
-[data-icon]:before {
+/*[data-icon]:before {
 	font-family: 'et-line';
 	content: attr(data-icon);
 	speak: none;
@@ -21,6 +21,21 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	display:inline-block;
+}*/
+
+.etline {
+    font-family: 'et-line';
+	content: attr(data-icon);
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 /* Use the following CSS code if you want to have a class per icon */
@@ -41,6 +56,15 @@ you can use the generic selector below, but it's slower:
 	-moz-osx-font-smoothing: grayscale;
 	display:inline-block;
 }
+.icon-etline-phone:before {
+	content: "\e004";
+}
+.icon-etline-map:before {
+	content: "\e025";
+}
+.icon-etline-envelope:before {
+	content: "\e028";
+}
 .icon-mobile:before {
 	content: "\e000";
 }
@@ -52,9 +76,6 @@ you can use the generic selector below, but it's slower:
 }
 .icon-tablet:before {
 	content: "\e003";
-}
-.icon-phone:before {
-	content: "\e004";
 }
 .icon-document:before {
 	content: "\e005";
@@ -152,17 +173,11 @@ you can use the generic selector below, but it's slower:
 .icon-flag:before {
 	content: "\e024";
 }
-.icon-map:before {
-	content: "\e025";
-}
 .icon-puzzle:before {
 	content: "\e026";
 }
 .icon-basket:before {
 	content: "\e027";
-}
-.icon-envelope:before {
-	content: "\e028";
 }
 .icon-streetsign:before {
 	content: "\e029";
