@@ -3,13 +3,20 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="EOS - Large Disk Storage at CERN">
+    <meta name="author" content="Aurora de Miguel de Couto">
+    <meta name="keywords" content="EOS, CERN, CERN storing, CERN analysis">
     <title>EOS Service - CERN</title>
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> <!--bootstrap icons-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/line-icons.css">
+    <link rel="stylesheet" href="css/etline-icon.css">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.css">
     <link rel="stylesheet" href="css/nivo-lightbox.css">
@@ -18,7 +25,6 @@
     <link rel="stylesheet" href="css/menu_sideslide.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/etline-icon.css">
     <link rel="stylesheet" href="css/colors/red.css">
 
 
@@ -37,11 +43,20 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                       </button> -->
+                      <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarEos" aria-expanded="false" aria-controls="navbar"> -->
+                      <!-- <button class="menu-button" id="open-button"><i class="lnr lnr-menu"></i></button>     -->
+                      <button type="button" class="navbar-toggle menu-button menu-button-coll" data-toggle="collapse" data-target="#navbarEos">
+                        <i class="lnr lnr-menu"></i>
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
                       <div class="logo-menu">
                         <a href="index.html" class="logo"><span class="glyphicon glyphicon-fire"></span> EOS</a>
                       </div>
                     </div>
-                    <div class="collapse navbar-collapse" id="myNavbar">
+                    <div id="navbarEos" class="navbar-collapse collapse">
                       <ul class="nav navbar-nav navbar-right logo-menu nav-item-d">
                         <li><a href="#video-area" class="nav-menu-item">Home</a></li>
                         <li><a href="#services" class="nav-menu-item">Services</a></li>
