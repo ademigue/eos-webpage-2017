@@ -252,7 +252,7 @@ a:not([href]):not([tabindex]):hover {
     display: inli
 }
 /* ==========================================================================
-   Hero Area Style
+   Hero Area Style - No in EOS web page
    ========================================================================== */
 #hero-area {
   background: url(../img/hero-area.jpg) fixed no-repeat;
@@ -425,7 +425,7 @@ a:not([href]):not([tabindex]):hover {
   background: #f2f2f2;
 }
 /* ==========================================================================
-   Features Section Style
+   Resources Section Style (Features)
    ========================================================================== */
 #features {
   background: #fff;
@@ -497,6 +497,8 @@ a:not([href]):not([tabindex]):hover {
 #features .show-box img {
   width: 100%;
 }
+
+
 /* ==========================================================================
    Screenshots Section Start
    ========================================================================== */
@@ -574,7 +576,7 @@ a:not([href]):not([tabindex]):hover {
   opacity: 1;
 }
 /* ==========================================================================
-   Portfolio Section
+   Portfolio Section - No in EOS web page
    ========================================================================== */
 #portfolios {
   background: #f2f2f2;
@@ -751,7 +753,7 @@ a:not([href]):not([tabindex]):hover {
   filter: alpha(opacity=70);
 }
 /* ==========================================================================
-    Pricing Table
+    Pricing Table - No in EOS web page
     ========================================================================== */
 .pricing-table {
   padding: 20px 20px 40px 20px;
@@ -804,7 +806,7 @@ a:not([href]):not([tabindex]):hover {
   margin-top: 20px;
 }
 /* ==========================================================================
-   Counter Section Style
+   Counter Section Style - No in EOS web page
    ========================================================================== */
 .counters {
   background: url(../img/bg_header.jpg) fixed;
@@ -831,7 +833,7 @@ a:not([href]):not([tabindex]):hover {
   color: #fff;
 }
 /* ==========================================================================
-   Testimonial Section Style
+   Testimonial Section Style - No in EOS web page
    ========================================================================== */
 #testimonial {
   background: #f2f2f2;
@@ -885,7 +887,7 @@ a:not([href]):not([tabindex]):hover {
   margin-right: 5px;
 }
 /* ==========================================================================
-   Blog
+   Blog - News
    ========================================================================== */
 #blog .blog-item-wrapper {
   background: #fff;
