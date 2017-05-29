@@ -7,3 +7,6 @@ To Be Done
 [ ] Tema/Template para los NEWs (blogs)
 
 - La cabecera pequeña, fondo blanco y letras naranjas
+
+
+[ ] Cambiar las extensiones para subirlo al servidor - Drupal
