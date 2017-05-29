@@ -1,5 +1,7 @@
 To Be Done
 
+[ ] Test de "Contact Us" - El formulario
+
 [ ] Pagina interna para Resources > YUM
 
 [ ] Tema/Template para los NEWs (blogs)
