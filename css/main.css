@@ -377,7 +377,7 @@ a:not([href]):not([tabindex]):hover {
   background: rgba(0, 0, 0, 0.7) !important;
 }
 /* ==========================================================================
-   About Section Style
+   About Section Style & Services Section Style
    ========================================================================== */
 #about {
   position: relative;
@@ -424,6 +424,11 @@ a:not([href]):not([tabindex]):hover {
   position: relative;
   background: #f2f2f2;
 }
+.service-item {
+    color: #292b2c;
+}
+
+
 /* ==========================================================================
    Resources Section Style (Features)
    ========================================================================== */

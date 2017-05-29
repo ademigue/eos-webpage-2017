@@ -1,0 +1,7 @@
+To Be Done
+
+[ ] Pagina interna para Resources > YUM
+
+[ ] Tema/Template para los NEWs (blogs)
+
+- La cabecera pequeña, fondo blanco y letras naranjas
